@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: DB_Connection_dbt
+    database: pramoddb1
+    schema: pramod_sch
+    tables:
+      - name: dummy_table      
